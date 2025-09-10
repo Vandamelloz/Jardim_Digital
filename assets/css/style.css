@@ -21,6 +21,7 @@ body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     line-height: 1.6;
+    /* melhora a legibilidade do texto */
 }
 
 header {
@@ -50,6 +51,7 @@ nav ul {
     justify-content: center;
     list-style: none;
     flex-wrap: wrap;
+    /* os itens da lista ficam em linha, centralizados e sem marcadores */
 }
 
 nav li {
@@ -62,6 +64,7 @@ nav a {
     font-weight: bold;
     padding: 0.5rem 1rem;
     transition: all 0.3s ease;
+    /* transição suave para o hover */
 }
 
 nav a:hover {
